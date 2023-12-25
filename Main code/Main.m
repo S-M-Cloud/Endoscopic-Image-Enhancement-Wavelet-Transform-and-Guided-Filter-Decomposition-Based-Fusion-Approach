@@ -1,6 +1,4 @@
-            % tafavote in junk ba junkCLAHE.m ine: inja multiexposure ba 3 ta ravesh tolid
-            % shode: GLAGC, CLAHE va imlocalbrighten.
-        
+                 
             clear all; close all; clc;
             
             Original_Image_init = imread(['\\filer3.usask.ca\s\shm153\Desktop\shiva\' ...
@@ -17,7 +15,7 @@
             OverEx_Image_init  = OverEx_Image;
             UnderEx_Image_init = UnderEx_Image;
            
-            %% RGB 2 HSV
+            %% RGB 2 HSI
             Original_Image = rgb2hsv(Original_Image);  
             OverEx_Image = rgb2hsv(OverEx_Image);
             UnderEx_Image  = rgb2hsv(UnderEx_Image);
