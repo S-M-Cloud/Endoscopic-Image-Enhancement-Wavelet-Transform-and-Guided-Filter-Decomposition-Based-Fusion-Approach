@@ -27,10 +27,7 @@
             % subplot(2,3,2),imshow(I_OverEx),title('Gamma correction');hold on
             % subplot(2,3,3),imshow(I_UnderEx),title('Imadjust');
         
-            % subplot(2,3,4),imshow(histogram(I_Original)),title('CLAHE . Histogram');hold  on
-            % subplot(2,3,5),imshow(histogram(I_OverEx)),title('I_OverEx . Histogram');hold on
-            % subplot(2,3,6),imshow(histogram(I_UnderEx)),title('I_UnderEx . Histogram');
-        
+                  
             %% Wavelet decomposition
         
             n=1;  %Enter the decomposition level
