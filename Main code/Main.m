@@ -1,8 +1,7 @@
                  
             clear all; close all; clc;
             
-            Original_Image_init = imread(['\\filer3.usask.ca\s\shm153\Desktop\shiva\' ...
-            'Gastric image fusion\Gastric endoscopic dataset\kvasir1426']);
+            Original_Image_init = imread(['The input image']);
         
             Original_Image = Original_Image_init;
            
